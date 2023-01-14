@@ -1,2 +1,11 @@
-# contoh-fungsi-ruang-kosong
-fungsi ruang kosong
+#include <iostream>
+using namespace std;
+void dummyfunction(void)
+{
+	cout << "i'm a function!";
+}
+int main()
+{
+	dummyfunction();
+	return 0;
+}
